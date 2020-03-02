@@ -13,6 +13,7 @@ def find_greater_pair(src)
   row_index = 0 
   while row_index < src.count do 
     result << src[row_index].max
+    row_index += 1 
   end
   return result
 end
